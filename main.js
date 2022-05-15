@@ -30,10 +30,8 @@
 
 
 // נתון המערך הבא 
-// הדפיסו רק את המילים
-
-
 var myArray = ["hello",2,"world","jacob",6,7,"bye",98];
+// הדפיסו רק את המילים
 console.log(myArray);
 var temArray = []
 for(var i = 0;i<myArray.length;i++){
