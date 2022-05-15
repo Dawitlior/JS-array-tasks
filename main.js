@@ -147,10 +147,24 @@
 // console.log(myArray(8,[5,6,11,6,2]))
 
 
-function newArray(array,array1){
-if(array.length==array1.length){
-    return true
-}
-return false
-}
-newArray([1,3,2,4,7,6,5],[4,6,2,3,1,8,7])
+
+
+// function newArray(array,array1){
+// if(array.length==array1.length){
+//     return console.log(true)
+// }
+// return console.log(false)
+// }
+// newArray([1,3,2,2,7,6,5],[4,6,2,3,1,8,7])
+
+
+// function myFunc(array1){
+//     var max = 0
+// for(var i = 0 ; i<array1.length;i++){
+    
+//     if(array1[i]>=max)
+//     max = array1[i]
+// }
+// return max
+// }
+// console.log(myFunc([4354,5547,2867,16788]))
