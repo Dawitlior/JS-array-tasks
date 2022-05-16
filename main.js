@@ -237,3 +237,42 @@
 
 
 
+
+// מערכים	כתבו פונקציה המקבלת מערך של מספרים ומדפיסה את האינדקס של המספר הזוגי הגבוה ביותר ואת האיבר עצמו.	
+// function myArray (array){
+// var zug = 0
+// var index = 0
+// for(var i = 0 ; i<array.length;i++){
+//     if(array[i]%2==0){
+//     zug = array[i]
+    //     index=i
+
+// }
+// }
+    
+
+// console.log(zug,index)
+// }
+
+// myArray([2,12,5,18])
+
+
+
+
+// מערכים	כתבו פונקציה המקבלת מערך של מספרים ומחזירה את סכום האיברים האי-זוגיים במערך.	
+
+// function arrayNums(array){
+//     var sum = 0
+//     for(var i = 0 ; i<array.length ; i++){
+//         if(array[i]%2==1){
+//           sum += array[i] 
+//         }
+
+//     }
+// console.log(sum)
+
+// }
+// arrayNums([3,2,5,4])
+
+
+
