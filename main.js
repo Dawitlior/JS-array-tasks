@@ -73,6 +73,10 @@
             // ------------------------------------------------------------
             // -------------------------HOMEWORKS-----------------------
 
+
+// הגדירו מערך עם המספרים 5,3,7,8,11 חשבו את סכום האיברים הממוצע והדפס לקונסול
+// יש לבצע באמצעות לולאה על המערך
+
 // function somNum(){
 //     var someNumbers = [5,3,7,8,11]
 //     console.log(someNumbers)
@@ -80,13 +84,16 @@
 //     for(var i = 0 ; i<someNumbers.length;i++){
 //         sum+=someNumbers[i]
 //         var avg = someNumbers[i]/5
-//     }
-    
+//     }    
 //     console.log(sum,avg)
     
 // }
 // somNum();
 
+
+
+
+// הגדירו מערך עם חמישה שמות . הדפיסו את השמות בכל שורה בלוג
 
 // function somNam(){
     // var someNames = ["lior","david","natan","eldad","yaso"]
@@ -101,6 +108,8 @@
 
 
 
+// כתבו פונקציה המקבלת מערך מספרים שלמים ומספר שלם כראגומנטים
+// הפונקציה בודקת אם המספר מופיע במערך , אם כן יוחזר true אחרת יוחסר false
 
 
 // function myArray(num,array){
@@ -118,7 +127,8 @@
 
 
 
-
+// כתבו פונקציה המקבלת מערך מספרים שלמים ומספר שלם כראגומנטים
+// הפונקציה בודקת אם המספר מופיע במערך , אם כן יוחזר true אחרת יוחסר false
 
 
 // function someArray(some1,some2){
@@ -135,6 +145,8 @@
 
 
 
+// כתבו פונקציה המקבלת מערך ומחזירה את מספר האיברים במערך שהם זוגיים
+
 // function myArray(num1,num2){
 // for(var i = 0 ; i<num2.length ; i++){
 //     if(num1==num2[i]){
@@ -148,6 +160,8 @@
 
 
 
+// כתבו פונקציה המקבלת שני מערכים של מספרים , ומעתיקה איברים ממערך אחד לשני רק אם המערכים בעלי
+// אותו אורך.החזירו true אם התבצעה העתקה וfalse אם לא
 
 // function newArray(array,array1){
 // if(array.length==array1.length){
@@ -160,6 +174,7 @@
 
 
 
+// כתבו פונקציה המקבלת מערך של מספרים ומחזירה את המספר המקסימלי
 
 // function myFunc(array1){
 //     var max = 0
@@ -172,6 +187,10 @@
 // }
 // console.log(myFunc([4354,5547,2867,18]))
 
+
+
+
+// כתבו פונקציה שמקבלת מערך של מספרים ומחזירה את האינדקס של המספר המינימלי
 
 // function minArray(arrayList){
 // var min = arrayList[0]
@@ -187,6 +206,19 @@
 // }
 // console.log(minArray([44,4,5]));
 
+
+
+
+// כתבו פונקציה המקבלת מערך של מספרים ומחזירה את סכום האיברים במערך
+
+// function scomArray(array){
+// var sum = 0;
+// for(var i = 0 ; i<array.length;i++){
+//    sum+=array[i]
+// };
+// console.log(sum)
+// };
+// console.log(scomArray([1,4,3,1]));
 
 
 
