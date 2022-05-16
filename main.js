@@ -1,12 +1,9 @@
 // var myArray = ["lior","david","yossi","eldad","taka"]
-// console.log()
-// console.log(myArray)
 // console.log(myArray[3])
 // for(var i=0; i>myArray.length;i++){
 
-//     console.log(myArray[i]);
 // }
-
+// console.log(myArray[i]);
 // console.log(myArray)
 
 
@@ -16,13 +13,15 @@
 // console.log(numArray)
 
 
-// נתון המערך הבא 
 // var myArray = ["hello",2,"world","jacob",6,7,"bye",98];
-// הדפיסו רק את המילים
 // var temArray = []
-// for(var i = 0;i<myArray.length;i++){
+// for(var i = 0 ; i<myArray.length ; i++){
 //     if(myArray[i] *1 != myArray[i]){
-//         console.log(myArray[i])
+//         console.log(myArray[i])}
+//     }
+        
+        
+        
 
 
 
@@ -34,12 +33,12 @@
 // הדפיסו רק את המילים
 // console.log(myArray);
 // for(var i = 0;i<myArray.length;i++){
-    //     if(myArray[i] *1 != myArray[i]){
-        //         console.log(myArray[i])
+//         if(myArray[i] *1 != myArray[i]){
+//                 console.log(myArray[i])
         
-        //     }
+//             }
         
-        // }
+//         }
         
         
         // פונקציית push
@@ -50,12 +49,6 @@
         // console.log(someaArray)
         
         
-        
-        // var someArray = [];
-        // for(var i = 0 ; i<10 ; i++){
-            //     someArray.push(i);
-            // }
-
 
             // ליצור מערך חדש עם מספרים מ0-50 ולהדפיס לקונסול 
 // ליצור מערך חדש עם מספרים מ0-50 ולהדפיס לקונסול 
@@ -119,9 +112,9 @@
 //         save++
 //         }
 //     }
-//     console.log(save)
+//     console.log(save,num)
 // }
-// myArray(5,[2,6,4,7]);
+// myArray(5,[2,6,0,7]);
 
 
 
@@ -221,6 +214,26 @@
 // console.log(scomArray([1,4,3,1]));
 
 
+
+
+// כתבו פונקציה המקבלת מערך של מספרים ומחזירה את המספר המקסימלי בו כפול המספר המינימלי.
+
+// function maxArray(myArray){
+// var max = 0;
+// var min = myArray[0];
+// for(var i = 0 ; i<myArray.length; i++){
+//     if(max<myArray[i]){
+//         max = myArray[i];
+       
+//     }
+//      if(min>myArray[i]){
+//         min = myArray[i]
+//         }
+
+// }
+// console.log(min*max)
+// }
+// maxArray([3,4,2,5]);
 
 
 
