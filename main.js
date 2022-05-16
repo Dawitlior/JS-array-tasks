@@ -266,14 +266,25 @@
 //     for(var i = 0 ; i<array.length ; i++){
 //         if(array[i]%2==1){
 //           sum += array[i] 
+          
 //         }
 
 //     }
 // console.log(sum)
 
 // }
-// arrayNums([3,2,5,4])
+// arrayNums([2,3,7,9,11,2,5,4])
 
 
 
 
+
+// מערכים	כתבו פונקציה המקבלת מערך של שמות ושם בודד, ומחזירה מערך הכולל את השם בסוף.	
+
+
+// function namsArray(arrayName1,arrayName2){
+// var arr = []
+
+
+// }
+// namsArray("lior"["david","natan","eldad","daniel"])
