@@ -158,6 +158,9 @@
 // newArray([1,3,2,2,7,6,5],[4,6,2,3,1,8,7])
 
 
+
+
+
 // function myFunc(array1){
 //     var max = 0
 // for(var i = 0 ; i<array1.length;i++){
@@ -167,4 +170,25 @@
 // }
 // return max
 // }
-// console.log(myFunc([4354,5547,2867,16788]))
+// console.log(myFunc([4354,5547,2867,18]))
+
+
+// function minArray(arrayList){
+// var min = arrayList[0]
+// var index = 0
+// for(var i = 0 ; i <arrayList.length; i++){
+//     if(arrayList[i]<=min){
+//         min = arrayList[i]
+//         index=[i]
+//     }
+// }
+// return index 
+
+// }
+// console.log(minArray([44,4,5]));
+
+
+
+
+
+
