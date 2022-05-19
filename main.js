@@ -266,7 +266,6 @@
 //     for(var i = 0 ; i<array.length ; i++){
 //         if(array[i]%2==1){
 //           sum += array[i] 
-          
 //         }
 
 //     }
@@ -284,92 +283,56 @@
 
 // function namsArray(arrayName1,arrayName2){
 // var arr = []
-
-
 // }
 // namsArray("lior"["david","natan","eldad","daniel"])
 
 
 
 
-
-
-// 208495895 - תז
-
-// 1)
-// JS היא שפת סקריפט מבוססת אובייקטים, ובכל אובייקט יש מכלול של תכונות לדוגמא length.ופונקציות.
-// JS היא case -sensative ובעצם היא רגישה לאותיות גדולות וקטנות - var LIOR לדוגמא הוא לא אותו משתנה כמו
-// var lior .ובנוסף היא losly-type ז"א שהיא לא מתחשבת בטייפים כמו string , ערך בוליאני...
-
-// 2)
-// משתנה הוא ערך שנשמר בזיכרון, אתה מגדיר אותו בעזרת ה - keyword -var
-
-// 3)
-// if בעצם keywork של תנאי שמאפשר לנו לבדוק האם תנאי מסויים מתקיים \ אמת
-// המבנה שלו:
-
-// }f(i < x)
-// dosomthing
-// {
-
-//     4)
-// בלולאת for צריכים להגדיר 3 דברים:
-//         1)אתחול של i
-//     2)תנאי עצירה
-//     3)קידוםשל i
-
-
-
-//     5)
-// פונקציית viod היא פונקציה שלא מחזירה ערך
- 
-// והפונקציה השנייה return שמחזירה לנו ערך
-
-
-
-              
-
-
-//                                                       שאלות קוד
-
-//     1)
-//     function myFunc(num) {
-//         var user = +prompt("type a number)
-// var sum = 0
-//         sum = user + num
-//         console.log(sum)
-//     }
-//     myFunc(5)
-
-
-
-
-    
-
-    // function func(num,num2) {
-    //     for (var i = 2; i < num2; i++)
-    //         if (i <= num2) {
-    //             console.log(i)
-    //         }
-
 //  צרו פונקציה המקבלת מערך של מספרים ומספר בודד במידה והמסםר קיים היא מסירה אותו ואם לא היא מוספיה אותו
     
 
-function printIfTheNumberExist(myArray,number){
-    var isExisted = false
-for(var i = 0 ; i < myArray.length ; i++){
-    if(myArray[i]==number){
-        myArray.splice(i,1);
-        i--
-        isExisted = true
-    }
+// function printIfTheNumberExist(myArray,number){
+//     var arrayLength = myArray.length
+// for(var i = 0 ; i < myArray.length ; i++){
+//     if(myArray[i]==number){
+//         myArray.splice(i,1);
+//         i--
+        
+//     }
 
-}
-if(!isExisted){
-    myArray.push(number)
-}
-myArray.push(number)
-return myArray
+// }
+// if(!myArray.includes(number)){
+//     myArray.push(number)
+// }
 
-}
-printIfTheNumberExist([3,22,45,11,32],22);
+// }
+// printIfTheNumberExist([3,22,45,11,32],22);
+
+
+
+
+// צרו פונקציה המקבלת שם,אם השם מורכב ממילה אחת החזירו את השם כך שהאות הראשונה
+// היא גדולה והשאר קטנות,אם השם מורכב מ2 מילים החזירו מערך של 2 מילים
+// אם השם מורכב מ3 מילים הדפיסו את המידע בצורה יפה
+// כאשר המילה הראשונה היא שם פרטי,שנייה היא שם אמצעי ומילה אחרונה היא שם משפחה
+
+
+// function returnTheBiggestName(someName){
+//     var spaceCounter = 0
+// for(var i = 0 ; i<someName.length ; i++){
+//     if(!someName[i] == " "){
+//         spaceCounter++     
+//     }
+// }
+//     if(spaceCounter == 0){
+//           if(spaceCounter == 1){
+//         return "two words"
+//       }
+//       else if(spaceCounter == 2){
+//         return "three words"
+//       }
+//     }
+ 
+// }
+// console.log(returnTheBiggestName());
