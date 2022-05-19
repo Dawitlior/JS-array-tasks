@@ -139,17 +139,16 @@
 
 
 // כתבו פונקציה המקבלת מערך ומחזירה את מספר האיברים במערך שהם זוגיים
-
-// function myArray(num1,num2){
-// for(var i = 0 ; i<num2.length ; i++){
-//     if(num1==num2[i]){
-//         num2++
-//         return true
-//     }
-//     return false
+// NOTFINISH
+// function myArray(num1){
+//     var num = 0
+// for(var i = 0 ; i<num1.length ; i++){
+// if(num1[i]%2==0){
+//     mun += num1[i]
 // }
 // }
-// console.log(myArray(8,[5,6,11,6,2]))
+// }
+// (myArray([5,6,11,6,2]))
 
 
 
