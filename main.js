@@ -139,16 +139,18 @@
 
 
 // כתבו פונקציה המקבלת מערך ומחזירה את מספר האיברים במערך שהם זוגיים
-// NOTFINISH
-// function myArray(num1){
-//     var num = 0
-// for(var i = 0 ; i<num1.length ; i++){
-// if(num1[i]%2==0){
-//     mun += num1[i]
+
+// function myArray(num2){
+//     var numbers = []
+// for(var i = 0 ; i<num2.length ; i++){
+//     if(num2[i]%2==0){
+//         console.log(num2[i])
+        
+//     }
 // }
+
 // }
-// }
-// (myArray([5,6,11,6,2]))
+// myArray([5,6,11,4,3,2]);
 
 
 
@@ -161,7 +163,7 @@
 // }
 // return console.log(false)
 // }
-// newArray([1,3,2,2,7,6,5],[4,6,2,3,1,8,7])
+// newArray([1,3,2,2,7,6,5],[4,6,2,3,9,8,7])
 
 
 
@@ -179,7 +181,17 @@
 // }
 // console.log(myFunc([4354,5547,2867,18]))
 
+// function ReturnMaxNumber(myArray){
+//     var max = 0
+// for(var i = 0;i<myArray.length;i++){
 
+// if(myArray[i]>=max)
+// max = myArray[i]
+
+// }
+// return max
+// }
+// console.log(ReturnMaxNumber([25,27,29,345,5,234,21]));
 
 
 // כתבו פונקציה שמקבלת מערך של מספרים ומחזירה את האינדקס של המספר המינימלי
@@ -203,14 +215,14 @@
 
 // כתבו פונקציה המקבלת מערך של מספרים ומחזירה את סכום האיברים במערך
 
-// function scomArray(array){
+// function someArray(array){
 // var sum = 0;
 // for(var i = 0 ; i<array.length;i++){
 //    sum+=array[i]
 // };
 // console.log(sum)
 // };
-// console.log(scomArray([1,4,3,1]));
+// console.log(someArray([1,4,3,1]));
 
 
 
