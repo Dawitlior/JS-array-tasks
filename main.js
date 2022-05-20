@@ -13,6 +13,7 @@
 // console.log(numArray)
 
 
+// הדפיסו רק את המילים
 // var myArray = ["hello",2,"world","jacob",6,7,"bye",98];
 // var temArray = []
 // for(var i = 0 ; i<myArray.length ; i++){
@@ -28,17 +29,7 @@
 
 
 
-// נתון המערך הבא 
-// var myArray = ["hello",2,"world","jacob",6,7,"bye",98];
-// הדפיסו רק את המילים
-// console.log(myArray);
-// for(var i = 0;i<myArray.length;i++){
-//         if(myArray[i] *1 != myArray[i]){
-//                 console.log(myArray[i])
-        
-//             }
-        
-//         }
+
         
         
         // פונקציית push
