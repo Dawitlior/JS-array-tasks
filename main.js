@@ -41,17 +41,14 @@
         
         
 
-            // ליצור מערך חדש עם מספרים מ0-50 ולהדפיס לקונסול 
-// ליצור מערך חדש עם מספרים מ0-50 ולהדפיס לקונסול 
-            // ליצור מערך חדש עם מספרים מ0-50 ולהדפיס לקונסול 
-            // להדפיס לקונסול רק את המספרים הזוגיים
-            // var numArray = [2,4,3,11,34,43,24,12,31,15]
-            // console.log(numArray)
-            // for(var i = 0; i<numArray.length; i++){
-            //     if(numArray[i]%2==0){
-            //         console.log(numArray[i])
-            //     }
-            // }
+         // ליצור מערך חדש עם מספרים מ0-50 ולהדפיס לקונסול 
+        // להדפיס לקונסול רק את המספרים הזוגיים
+        // var numArray = [2,4,3,11,34,43,24,12,31,15]            // console.log(numArray)
+        // for(var i = 0; i<numArray.length; i++){
+        //    if(numArray[i]%2==0){
+        //         console.log(numArray[i])
+        //      }
+        //  }
 
             // ------------------------------------------------------------
             // ------------------------------------------------------------
@@ -61,19 +58,16 @@
 // הגדירו מערך עם המספרים 5,3,7,8,11 חשבו את סכום האיברים הממוצע והדפס לקונסול
 // יש לבצע באמצעות לולאה על המערך
 
-// function somNum(){
-//     var someNumbers = [5,3,7,8,11]
-//     console.log(someNumbers)
+// function printTheSumAndAvg(){
+//     var myArray = [7,12,3,22,92,85,44]
 //     var sum = 0
-//     for(var i = 0 ; i<someNumbers.length;i++){
-//         sum+=someNumbers[i]
-//         var avg = someNumbers[i]/5
-//     }    
+//     for(var i = 0 ; i<myArray.length ; i++){
+//         sum+=myArray[i]
+//         var avg = myArray[i]/5
+//     }
 //     console.log(sum,avg)
-    
 // }
-// somNum();
-
+// printTheSumAndAvg();
 
 
 
