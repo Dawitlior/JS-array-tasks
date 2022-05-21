@@ -197,10 +197,10 @@
 //         index=[i]
 //     }
 // }
-// return index 
+// return index ;
 
 // }
-// console.log(ReturnTheIndexOfMinNumber([44,4,1]));
+// console.log(ReturnTheIndexOfMinNumber([44,4,2,1,0,9,77,]));
 
 
 
@@ -212,10 +212,10 @@
 // var sum = 0;
 // for(var i = 0 ; i<array.length;i++){
 //    sum+=array[i]
-// };
-// console.log(sum)
-// };
-// console.log(someArray([1,4,3,1]));
+// }
+// return sum
+// }
+// someArray([1,4,3,1]);
 
 
 
@@ -223,27 +223,31 @@
 // כתבו פונקציה המקבלת מערך של מספרים ומחזירה את המספר המקסימלי בו כפול המספר המינימלי.
 
 // function maxArray(myArray){
-// var max = 0;
-// var min = myArray[0];
-// for(var i = 0 ; i<myArray.length; i++){
+// var max = 0
+// var min = myArray[0]
+// for(var i = 0 ; i<myArray.length ; i++){
 //     if(max<myArray[i]){
 //         max = myArray[i];
-       
 //     }
-//      if(min>myArray[i]){
+//     if(min>myArray[i]){
 //         min = myArray[i]
-//         }
+//     }
+// }
+
+// return min*max
 
 // }
-// console.log(min*max)
-// }
-// maxArray([3,4,2,5]);
+// maxArray([3,12,11,15,1]);
+
+
+
+
 
 
 
 
 // מערכים	כתבו פונקציה המקבלת מערך של מספרים ומדפיסה את האינדקס של המספר הזוגי הגבוה ביותר ואת האיבר עצמו.	
-// function myArray (array){
+// function printTheZugNumberAndIndex (array){
 // var zug = 0
 // var index = 0
 // for(var i = 0 ; i<array.length;i++){
@@ -255,25 +259,7 @@
 // console.log(zug,index)
 // }
 
-// myArray([12,5,18,122])
-
-
-// function printTheZugNumberAndIndex(myArray){
-// var zug = 0
-// var index = 0
-// for(var i = 0 ; i<myArray.length;i++){
-//     if(myArray[i]%2==0){
-//         zug = myArray[i]
-//         index = i
-        
-//     }
-// }
-// console.log(zug,index);
-
-// }
-// printTheZugNumberAndIndex([222,2,5]);
-
-
+// printTheZugNumberAndIndex([12,5,183,123])
 
 
 
@@ -298,10 +284,11 @@
 
 
 // function namsArray(arrayName1,arrayName2){
-// var arr = [arrayName2,arrayName1]
-// return arr
+// arrayName2.push(arrayName1);
+// return arrayName2
 // }
-// console.log(namsArray("lior"["david","natan","eldad","daniel"]))
+
+// console.log(namsArray("lior",["david","natan","eldad","daniel"]))
 
 
 
@@ -309,19 +296,19 @@
 //  צרו פונקציה המקבלת מערך של מספרים ומספר בודד במידה והמסםר קיים היא מסירה אותו ואם לא היא מוספיה אותו
     
 
-// function printIfTheNumberExist(myArray,number){
-//     var arrayLength = myArray.length
-// for(var i = 0 ; i < myArray.length ; i++){
-//     if(myArray[i]==number){
-//         myArray.splice(i,1);
-//         i--
-//     }
-// }
-// if(!myArray.includes(number)){
-//     myArray.push(number)
-// }
-// }
-// console.log(printIfTheNumberExist([3,22,45,11,32],22));
+function printIfTheNumberExist(myArray,number){
+    // var arrayLength = myArray.length
+for(var i = 0 ; i < myArray.length ; i++){
+    if(myArray[i]==number){
+        myArray.splice(i,1);
+        i--
+    }
+}
+if(!myArray.includes(number)){
+    myArray.push(number)
+}
+}
+console.log(printIfTheNumberExist([3,22,45,11,32],22));
 
 
 
