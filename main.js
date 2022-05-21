@@ -295,20 +295,20 @@
 
 //  צרו פונקציה המקבלת מערך של מספרים ומספר בודד במידה והמסםר קיים היא מסירה אותו ואם לא היא מוספיה אותו
     
-
-function printIfTheNumberExist(myArray,number){
-    // var arrayLength = myArray.length
-for(var i = 0 ; i < myArray.length ; i++){
-    if(myArray[i]==number){
-        myArray.splice(i,1);
-        i--
-    }
-}
-if(!myArray.includes(number)){
-    myArray.push(number)
-}
-}
-console.log(printIfTheNumberExist([3,22,45,11,32],22));
+// NOT FINISH
+// function printIfTheNumberExist(myArray,number){
+//     // var arrayLength = myArray
+// for(var i = 0 ; i < myArray.length ; i++){
+//     if(myArray[i]==number){
+//         myArray.splice(i,1);
+//     }
+// }
+// if(!myArray.includes(number)){
+//     myArray.push(number);
+// }
+// console.log(myArray);
+// }
+// printIfTheNumberExist([3,22,45,11,32],22);
 
 
 
