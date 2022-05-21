@@ -14,23 +14,42 @@
 
 
 // הדפיסו רק את המילים
-// var myArray = ["hello",2,"world","jacob",6,7,"bye",98];
-// var temArray = []
-// for(var i = 0 ; i<myArray.length ; i++){
-//     if(myArray[i] *1 != myArray[i]){
-//         console.log(myArray[i])}
+
+// function printOnlyTheWords(myArray){
+//     for(var i = 0 ; i<myArray.length ; i++){
+//         if(myArray[i] *1 != myArray[i]){
+//             console.log(myArray[i])}
+//         }
+
+// }
+// printOnlyTheWords(["hello",2,"world","jacob",6,7,"bye",98]);
+
+
+
+
+
+
+// צרו פונקציה המקבלת מספר שלם חיובי num כארגומנט ומחשבת את הסכום 1+2+···+num ומחזירה אותו בעזרת return.
+// בדוק באמצעות קריאה מהדף והדפסת הערך המוחזר. לדוגמא עבור ארגומנט של 4 היא תחזיר 1+2+3+4 (10)        
+// function printSumOfNumbers(num){
+//     var sum = 1
+// for(var i = 0 ; i<=num; i++){
+//     if(i<=num){
+//         sum+=num
+//         num--
 //     }
+// }
+// return sum
+// }
+// printSumOfNumbers(4);
         
         
-        
 
 
 
 
 
-
-
-        
+ 
         
         // פונקציית push
         
@@ -63,7 +82,7 @@
 //     var sum = 0
 //     for(var i = 0 ; i<myArray.length ; i++){
 //         sum+=myArray[i]
-//         var avg = myArray[i]/5
+//         var avg = myArray[i]/7
 //     }
 //     console.log(sum,avg)
 // }
@@ -154,18 +173,6 @@
 
 
 // כתבו פונקציה המקבלת מערך של מספרים ומחזירה את המספר המקסימלי
-
-// function myFunc(array1){
-//     var max = 0
-// for(var i = 0 ; i<array1.length;i++){
-    
-//     if(array1[i]>=max)
-//     max = array1[i]
-// }
-// return max
-// }
-// console.log(myFunc([4354,5547,2867,18]))
-
 // function ReturnMaxNumber(myArray){
 //     var max = 0
 // for(var i = 0;i<myArray.length;i++){
@@ -181,7 +188,7 @@
 
 // כתבו פונקציה שמקבלת מערך של מספרים ומחזירה את האינדקס של המספר המינימלי
 
-// function minArray(arrayList){
+// function ReturnTheIndexOfMinNumber(arrayList){
 // var min = arrayList[0]
 // var index = 0
 // for(var i = 0 ; i <arrayList.length; i++){
@@ -193,7 +200,8 @@
 // return index 
 
 // }
-// console.log(minArray([44,4,5]));
+// console.log(ReturnTheIndexOfMinNumber([44,4,1]));
+
 
 
 
@@ -241,16 +249,30 @@
 // for(var i = 0 ; i<array.length;i++){
 //     if(array[i]%2==0){
 //     zug = array[i]
-    //     index=i
-
+//     index=i
 // }
 // }
-    
-
 // console.log(zug,index)
 // }
 
-// myArray([2,12,5,18])
+// myArray([12,5,18,122])
+
+
+// function printTheZugNumberAndIndex(myArray){
+// var zug = 0
+// var index = 0
+// for(var i = 0 ; i<myArray.length;i++){
+//     if(myArray[i]%2==0){
+//         zug = myArray[i]
+//         index = i
+        
+//     }
+// }
+// console.log(zug,index);
+
+// }
+// printTheZugNumberAndIndex([222,2,5]);
+
 
 
 
@@ -263,12 +285,10 @@
 //         if(array[i]%2==1){
 //           sum += array[i] 
 //         }
-
 //     }
-// console.log(sum)
-
+//     return sum
 // }
-// arrayNums([2,3,7,9,11,2,5,4])
+// console.log(arrayNums([2,3,7,9,11,2,5,4]))
 
 
 
@@ -278,9 +298,10 @@
 
 
 // function namsArray(arrayName1,arrayName2){
-// var arr = []
+// var arr = [arrayName2,arrayName1]
+// return arr
 // }
-// namsArray("lior"["david","natan","eldad","daniel"])
+// console.log(namsArray("lior"["david","natan","eldad","daniel"]))
 
 
 
@@ -294,16 +315,13 @@
 //     if(myArray[i]==number){
 //         myArray.splice(i,1);
 //         i--
-        
 //     }
-
 // }
 // if(!myArray.includes(number)){
 //     myArray.push(number)
 // }
-
 // }
-// printIfTheNumberExist([3,22,45,11,32],22);
+// console.log(printIfTheNumberExist([3,22,45,11,32],22));
 
 
 
@@ -329,13 +347,15 @@
 //         return "three words"
 //       }
 //     }
-
-
-// 
-//  
+ 
 // }
 // console.log(returnTheBiggestName());
 
 
+// function printTheSum(number){
+
+
+// }
+// printTheSum(4)
 
 
